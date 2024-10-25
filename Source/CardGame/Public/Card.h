@@ -18,6 +18,16 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+	
+	UPROPERTY(BlueprintReadWrite)
+	int value = 1;
+
+
+	UPROPERTY(BlueprintReadWrite)
+	FName Effect;
+
+	UPROPERTY(BlueprintReadWrite)
+	APlayerController* Player;
 
 public:	
 	// Called every frame
