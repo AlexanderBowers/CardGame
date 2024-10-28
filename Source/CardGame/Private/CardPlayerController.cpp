@@ -10,16 +10,3 @@ ACardPlayerController::ACardPlayerController()
 
 }
 
-// Called when the game starts or when spawned
-void ACardPlayerController::BeginPlay()
-{
-	Super::BeginPlay();
-
-}
-
-// Called every frame
-void ACardPlayerController::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-}

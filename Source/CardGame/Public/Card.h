@@ -28,7 +28,7 @@ protected:
 	FName Effect;
 
 	UPROPERTY(BlueprintReadWrite)
-	ACardPlayerController* Player;
+	ACardPlayerController* Player = nullptr;
 
 public:	
 	// Called every frame
