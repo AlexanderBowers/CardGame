@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Card.h"
 #include "GameFramework/PlayerController.h"
 #include "CardPlayerController.generated.h"
 
@@ -19,5 +20,13 @@ class CARDGAME_API ACardPlayerController : public APlayerController
 	
 		UPROPERTY(BlueprintReadWrite)
 		int Score = 0;
+
+	UPROPERTY(BlueprintReadWrite)
+	TArray<ACard> Hand;
+	UPROPERTY(BlueprintReadWrite)
+	TArray<ACard> Board;
+
+	UPROPERTY(BlueprintReadWrite)
+	bool bHold = false;
 
 };
