@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "CardPlayerController.h"
 #include "Card.generated.h"
 
 UCLASS()
@@ -27,7 +28,7 @@ protected:
 	FName Effect;
 
 	UPROPERTY(BlueprintReadWrite)
-	APlayerController* Player;
+	ACardPlayerController* Player;
 
 public:	
 	// Called every frame

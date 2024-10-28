@@ -14,4 +14,10 @@ class CARDGAME_API ACardPlayerController : public APlayerController
 {
 	GENERATED_BODY()
 	
+	public:
+		ACardPlayerController();
+	
+		UPROPERTY(BlueprintReadWrite)
+		int Score = 0;
+
 };
