@@ -4,8 +4,6 @@
 
 #include "CoreMinimal.h"
 #include "AIController.h"
-#include "ACardPlayerController.h"
-#include "ACard.h"
 #include "JudgeController.generated.h"
 
 /**
@@ -15,6 +13,5 @@ UCLASS()
 class CARDGAME_API AJudgeController : public AAIController
 {
 	GENERATED_BODY()
-
 	
 };
