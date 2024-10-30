@@ -4,8 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "AIController.h"
-#include "ACardPlayerController.h"
-#include "ACard.h"
+#include "CardPlayerController.h"
+#include "Card.h"
 #include "JudgeController.generated.h"
 
 /**
